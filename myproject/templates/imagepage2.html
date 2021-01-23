@@ -1,0 +1,18 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block title %} My Image page 2{% endblock %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4">
+            <img src="{% static 'horse-herd-fog-nature-52500.jpeg' %}" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-4">
+            <img src="{% static 'horse-herd-fog-nature-52500.jpeg' %}" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-4">
+            <img src="{% static 'horse-herd-fog-nature-52500.jpeg' %}" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+</div>
+{% endblock %}
